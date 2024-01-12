@@ -1,0 +1,140 @@
+/* Common Css */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+:root {}
+
+
+.btn-primary {
+    padding: 20px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/* Navbar Part Start */
+header {
+    padding: 50px 240px;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.nav-title {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+.nav-list>li {
+    margin-left: 50px;
+}
+
+.nav-list a {
+    color: var(--Dark-02, #424242);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* Banner Part Start */
+
+
+.banner-text {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    max-width: 860px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: var(--Dark-01, #131313);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-description {
+    margin: 30px 0px 40px 0px;
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* respisin=ve design */
+/* Mobile divices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        text-align: center;
+        flex-direction: column;
+    }
+    .nav-list{
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    .nav-list>li {
+        margin-left: 20px;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 40px 80px;
+    }
+    .nav-list>li {
+        margin-left: 45px;
+    }
+}
