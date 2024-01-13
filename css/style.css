@@ -209,6 +209,13 @@
     margin: 0 auto;
 }
 
+.spon-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 
@@ -278,6 +285,11 @@
      .fact-items .card {
         padding: 80px 15px;
     }
+    /* Sponsors Start */
+    .spon-img{
+        flex-direction: column;
+        gap: 40px;
+    }
 
  }
 
@@ -302,5 +314,10 @@
          margin-top: 30px;
      }
      /* Facts Start */
+     /* Sponsors Start */
+     .spon-img{
+        flex-direction: column;
+        gap: 40px;
+    }
      
  }
